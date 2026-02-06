@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rempah Nusantara | Toko Rempah Kualitas Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Rempah<span>Nusantara</span></div>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-text">
+            <h1>Cita Rasa Autentik <br> Dari Alam Indonesia</h1>
+            <p>Menyediakan rempah-rempah pilihan kualitas ekspor langsung dari petani lokal.</p>
+            <a href="#produk" class="btn-main">Belanja Sekarang</a>
+        </div>
+    </header>
+
+    <section id="produk" class="products">
+        <h2>Produk Unggulan</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1599481238332-b06259f97940?auto=format&fit=crop&w=400" alt="Kayu Manis">
+                <h3>Kayu Manis (Cinnamon)</h3>
+                <p class="price">Rp 25.000 / 100gr</p>
+                <a href="https://wa.me/628123456789?text=Halo, saya ingin pesan Kayu Manis" class="btn-buy">Beli via WA</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1615485290382-441e4d019cb0?auto=format&fit=crop&w=400" alt="Cengkeh">
+                <h3>Cengkeh Kering</h3>
+                <p class="price">Rp 45.000 / 100gr</p>
+                <a href="https://wa.me/628123456789?text=Halo, saya ingin pesan Cengkeh" class="btn-buy">Beli via WA</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1635332766065-21950e30932c?auto=format&fit=crop&w=400" alt="Kunyit Bubuk">
+                <h3>Kunyit Bubuk Murni</h3>
+                <p class="price">Rp 15.000 / 100gr</p>
+                <a href="https://wa.me/628123456789?text=Halo, saya ingin pesan Kunyit Bubuk" class="btn-buy">Beli via WA</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Rempah Nusantara. Semua Hak Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
